@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Fourth
 {
-    class Program
+    class Fourth
     {
 
         public static string CalculateMD5Hash(string input){
@@ -27,34 +27,6 @@ namespace Fourth
         static void Main(string[] args)
         {
                 int i = 0;
-            //while (true)
-            //{
-            //    string temp = CalculateMD5Hash("abcdef" + i);
-            //    if (temp.StartsWith("00000")) { 
-            //        break;
-            //    } else
-            //    {
-            //        i++;
-            //    }                
-            //}
-            //Console.WriteLine(CalculateMD5Hash("abcdef" + i) );
-            //Console.WriteLine ( i);
-            // i = 0;
-            //while (true)
-            //{
-            //    string temp = CalculateMD5Hash("pqrstuv" + i);
-            //    if (temp.StartsWith("00000"))
-            //    {
-            //        break;
-            //    }
-            //    else
-            //    {
-            //        i++;
-            //    }
-            //}
-            //Console.WriteLine(CalculateMD5Hash("pqrstuv" + i));
-            //Console.WriteLine(i);
-            //i = 0;
             while (true)
             {
                 string temp = CalculateMD5Hash("iwrupvqb" + i);
